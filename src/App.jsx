@@ -6,10 +6,12 @@ import './App.css'
 
 function App() {
   return (
-    <div className="container">
-      <h1>Welcome to Vite + React</h1>
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+      </Route>
+    </Routes>
   )
 }
-
 export default App
