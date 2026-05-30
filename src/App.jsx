@@ -1,15 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import { Routes, Route } from 'react-router-dom'
+import Layout from './layouts/Layout'
+import Home from './components/Home'
+import "./App.css"
 
 function App() {
   return (
-    <div className="container">
-      <h1>Welcome to Vite + React</h1>
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        {/* <Route path="about" element={<About />} /> */}
+      </Route>
+    </Routes>
   )
 }
-
 export default App
