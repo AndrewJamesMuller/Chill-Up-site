@@ -8,10 +8,16 @@ export default function Home() {
             {/* <Header /> */}
             <div className="home">
                 <section className="intro-image">
-                    <h1 className="main_title"></h1>
+                    <h1 className="main_title">Привіт!</h1>
                     <div className="content-block1">
-                        <p className="intro_text">Вступна кампанія 2024 року вже розпочалася! Час обирати майбутню професію та готуватися до вступу. Ми допоможемо тобі зорієнтуватися у світі професій та знайти свій шлях до успіху.</p>
-                        <img src="/public/right-arrow1.svg" alt="" className="arrow" />
+                        <div className="textBlock">
+                            <p className="intro_text"> Закінчуєш 9/11 клас і не вирішив, яку спеціальність обрати? Хочеш дізнатися більше про спеціальності? Гортай далі!</p>
+                        </div>
+                        <div className="arrow-down">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
                 </section>
                 <section className="steps">

@@ -1,0 +1,88 @@
+h1, p, Link{
+    font-family: "SN Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.home_container, .home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.home_container{
+    height: 1000px;
+}
+.home{
+    height: 800px
+}
+
+.intro-image{
+    height: 700px;
+    background-image: url('./background1.svg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content-block1{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 50px; */
+}
+.main_title{
+    font-size: 96px;
+    color: #1D5A54;
+    /* width: 100%; */
+    /* text-align: center; */
+}
+.textBlock{
+    width: 800px
+}
+.intro_text{
+    font-size: 32px;
+    color: #1D5A54;
+    /* width: 100%; */
+    text-align: left;
+}
+/* стрілка */
+.arrow-down {
+    margin: 30px;
+}
+.arrow-down span {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-bottom: 8px solid #1D5A54;
+    border-right: 8px solid #1D5A54;
+    border-radius: 10px;
+    transform: rotate(45deg);
+    margin: -16px;
+    animation: arrow-down 2s infinite;
+}
+.arrow-down span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow-down span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes arrow-down {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}

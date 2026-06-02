@@ -12,9 +12,9 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footer-block2">
-                <Link to="/ProfCatalog">Професії</Link>
-                <Link to="/Helper">Поради для вступу</Link>
-                <Link to="/about">Про нас</Link>
+                <Link className="footer-link" to="/ProfCatalog">Професії</Link>
+                <Link className="footer-link" to="/Helper">Поради для вступу</Link>
+                <Link className="footer-link" to="/about">Про нас</Link>
             </div>
         </footer>
     )
