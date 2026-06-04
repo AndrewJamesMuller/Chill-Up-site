@@ -175,3 +175,30 @@ h1, h2,h3, p, Link{
 .letter_block h3{
     font-size: 35px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .main_title{
+    font-size: 64px;
+    color: #1D5A54;
+    /* width: 100%; */
+    /* text-align: center; */
+}
+.arrow-down {
+    display: none;
+}
+.intro_text {
+    font-size: 22px;
+    color: #1D5A54;
+    /* width: 100%; */
+    text-align: left;
+}
+.steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 900px;
+}
+}
