@@ -47,7 +47,7 @@
   transform: scaleX(1);
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 400px) and (max-width: 768px) {
     .header{
     /* padding: 20px; */
     background-color: #055C5A;

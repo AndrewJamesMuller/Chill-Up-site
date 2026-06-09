@@ -176,7 +176,7 @@ h1, h2,h3, p, Link{
     font-size: 35px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 400px) and (max-width: 768px) {
     .main_title{
     font-size: 64px;
     color: #1D5A54;
