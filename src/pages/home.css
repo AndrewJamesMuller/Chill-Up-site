@@ -187,7 +187,7 @@ h1, h2,h3, p, Link{
     display: none;
 }
 .intro_text {
-    font-size: 22px;
+    font-size: 20px;
     color: #1D5A54;
     /* width: 100%; */
     text-align: left;
@@ -273,7 +273,8 @@ h1, h2,h3, p, Link{
         /* width: 400px; */
         padding: 20px;
         color: white;
-        font-size: 25px;
+        font-size: 18px;
+        margin-bottom: 5px;
 }
 .home_container{
     height: 2300px;
