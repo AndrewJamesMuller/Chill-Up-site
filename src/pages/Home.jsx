@@ -37,7 +37,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="steps_right-block">
-                        <div className="steps_title"><h2>підказки:</h2></div>
+                        <div className="steps_title"><h2 className="steps_title_text">підказки:</h2></div>
                         {steps.map((step, index) => (
                             <div className="step" key={index}>
                                 <h2 className="step_number">{index + 1}</h2>
