@@ -31,7 +31,7 @@ export default function Home() {
                                 На цьому сайті ти знайдеш різні напрямки і їх спеціальності. Не спіши! Chill up)
                             </p>
                             <h3 className="letter_block_title">P.S.</h3>
-                            <p className="text">
+                            <p className="text2">
                                 Наш розробник зустрівся з такою проблемою, пошуку спеціальності. Тому й зараз цей сайт існує!
                             </p>
                         </div>
