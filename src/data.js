@@ -25,7 +25,7 @@ export const steps = [
 //             }
 // ]   
 
-export const pagesLeft = [ 
+export const pages = [ 
     // право
     {
         slug: "law",
@@ -40,7 +40,8 @@ export const pagesLeft = [
             // "judicial-activity", 
             // "tax-law"
         ],
-        type: "category"
+        type: "category",
+        column: "left"
     },
     {
         slug: "lawyer",
@@ -65,7 +66,8 @@ export const pagesLeft = [
             "civil-engineer",
             "construction-manager"
         ],
-        type: "category"
+        type: "category",
+        column: "left"
     },
     {
         slug: "civil-engineer",
@@ -90,7 +92,8 @@ export const pagesLeft = [
             "coach",
             "athlete"
         ],
-        type: "category"
+        type: "category",
+        column: "left"
     },
     {
         slug: "coach",
@@ -115,7 +118,8 @@ export const pagesLeft = [
             "digital-marketing",
             "brand-management"
         ],
-        type: "category"
+        type: "category",
+        column: "left"
     },
     {
         slug: "digital-marketing",
@@ -141,7 +145,8 @@ export const pagesLeft = [
             "electrical-engineer",
             "computer-engineer"
         ],
-        type: "category"
+        type: "category",
+        column: "left"
     },
     {
         slug: "civil-engineer",
@@ -161,11 +166,9 @@ export const pagesLeft = [
         text: "a page about computer engineers",
          type: "page"
     },
-]
 
-export const pagesRight = [
-    // ================= IT =================
-  {
+    // it
+    {
     slug: "it",
     title: "IT-фахівці",
     img: "/public/it.svg",
@@ -173,6 +176,7 @@ export const pagesRight = [
       "IT-сфера охоплює розробку програмного забезпечення, веб-додатків, штучного інтелекту та системної інфраструктури. Це одна з найдинамічніших галузей, яка вимагає логічного мислення, постійного навчання та роботи з новими технологіями.",
     children: ["frontend-dev", "backend-dev", "ui-ux-dev"],
     type: "category",
+    column: "right"
   },
   {
     slug: "frontend-dev",
@@ -202,6 +206,7 @@ export const pagesRight = [
       "Професія викладача пов'язана з навчанням та вихованням учнів і студентів. Це робота, яка вимагає терпіння, комунікаційних навичок та глибоких знань у своїй галузі.",
     children: ["school-teacher", "university-lecturer", "tutor"],
     type: "category",
+    column: "right"
   },
   {
     slug: "school-teacher",
@@ -231,6 +236,7 @@ export const pagesRight = [
       "Дизайн — це процес створення візуальних рішень для веб, графіки, продуктів та інтерфейсів. Дизайнери поєднують креативність та функціональність.",
     children: ["graphic-designer", "ui-ux-designer", "motion-designer"],
     type: "category",
+    column: "right"
   },
   {
     slug: "graphic-designer",
@@ -260,6 +266,7 @@ export const pagesRight = [
       "Офісні професії включають адміністративну, організаційну та управлінську роботу. Це важлива частина бізнес-процесів будь-якої компанії.",
     children: ["office-manager", "secretary", "hr-manager"],
     type: "category",
+    column: "right"
   },
   {
     slug: "office-manager",
@@ -289,6 +296,7 @@ export const pagesRight = [
       "Медицина — це галузь, що займається діагностикою, лікуванням та профілактикою захворювань. Вона вимагає високої відповідальності, знань та емпатії.",
     children: ["doctor", "surgeon", "nurse"],
     type: "category",
+    column: "right"
   },
   {
     slug: "doctor",
