@@ -24,10 +24,10 @@ export default function Home() {
                 <section className="steps">
                     <div className="steps_left-block">
                         <div className="circle">
-                            <p className="text">Кар’єра — це шлях, <br/> i він змінюється у більшості людей</p>
+                            <p className="text1">Кар’єра — це шлях, <br/> i він змінюється у більшості людей</p>
                         </div>
                         <div className="letter_block">
-                            <p className="text">
+                            <p className="text1">
                                 На цьому сайті ти знайдеш різні напрямки і їх спеціальності. Не спіши! Chill up)
                             </p>
                             <h3 className="letter_block_title">P.S.</h3>
@@ -42,7 +42,12 @@ export default function Home() {
                             <div className="step" key={index}>
                                 <h2 className="step_number">{index + 1}</h2>
                                 <div className="text-block-steps">
-                                    <p>{step.text}</p>
+                                    {step.link && (
+                                        <Link className="step-link" to={step.link}>
+                                            <p>{step.text}</p>
+                                        </Link>
+                                    )}
+                                    {!step.link && <p>{step.text}</p>}
                                 </div>
                             </div>
                         ))}

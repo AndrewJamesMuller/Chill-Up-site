@@ -1,8 +1,10 @@
-h1, h2,h3, p, Link{
+h1, h2,h3, p, Link, .step-link{
     font-family: "SN Pro", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    /* text-decoration: none; */
+    color: white;
 }
 .home_container, .home{
     display: flex;
@@ -168,7 +170,7 @@ h1, h2,h3, p, Link{
     width: 300px;
     margin-left: 20px;
 }
-.text{
+.text1{
     font-size: 24px;
 
 }
