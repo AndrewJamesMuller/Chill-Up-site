@@ -24,7 +24,7 @@ export default function Home() {
                 <section className="steps">
                     <div className="steps_left-block">
                         <div className="circle">
-                            <p className="text1">Кар’єра — це шлях, <br/> i він змінюється у більшості людей</p>
+                            <p className="text3">Кар’єра — це шлях, <br/> i він змінюється у більшості людей</p>
                         </div>
                         <div className="letter_block">
                             <p className="text1">
