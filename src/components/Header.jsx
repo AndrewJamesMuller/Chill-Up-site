@@ -9,9 +9,9 @@ export default function Header() {
         <header className="header">
             <Link to="/"> <img src="/logo.svg" alt="logo" className="logo" /> </Link>
             <nav className="nav">
-                <Link to="/ProfCatalog" className="nav-link">-Професії</Link>
-                <Link to="/Helper" className="nav-link">-Поради для вступу</Link>
-                <Link to="/about" className="nav-link">-Про нас</Link>
+                <Link to="/ProfCatalog" className="nav-link">Професії</Link>
+                <Link to="/Helper" className="nav-link">Поради для вступу</Link>
+                <Link to="/about" className="nav-link">Про нас</Link>
             </nav>
             <button className={`burger-menu ${isOpen ? "open" : ""}`} onClick={()=>{setIsOpen(prev => !prev)}}>
                 {/* {isOpen ? "✕" : "|||"} */}
@@ -27,9 +27,9 @@ export default function Header() {
             )}
 
             <nav className={`navMobile ${isOpen? "open" : ""}`}>
-                <Link to="/ProfCatalog" className="nav-link">Професії</Link>
-                <Link to="/Helper" className="nav-link">Поради для вступу</Link>
-                <Link to="/about" className="nav-link">Про нас</Link>
+                <Link to="/ProfCatalog" className="nav-link">- Професії</Link>
+                <Link to="/Helper" className="nav-link">- Поради для вступу</Link>
+                <Link to="/about" className="nav-link">- Про нас</Link>
             </nav>
         </header>
     )
