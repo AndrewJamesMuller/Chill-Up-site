@@ -148,7 +148,10 @@ export const pages = [
         children: [
             "civil-engineer",
             "electrical-engineer",
-            "computer-engineer"
+            "computer-engineer",
+            "pppp",
+            "dfedfergretgre",
+            "oxcdwsefr"
         ],
         type: "category",
         column: "left"
@@ -168,6 +171,25 @@ export const pages = [
     {
         slug: "computer-engineer",
         title: "Комп'ютерний інженер",
+        text: "a page about computer engineers",
+         type: "page"
+    },
+
+    {
+        slug: "pppp",
+        title: "pppp",
+        text: "a page about computer engineers",
+         type: "page"
+    },
+    {
+        slug: "dfedfergretgre",
+        title: "dfedfergretgre",
+        text: "a page about computer engineers",
+         type: "page"
+    },
+    {
+        slug: "oxcdwsefr",
+        title: "oxcdwsefr",
         text: "a page about computer engineers",
          type: "page"
     },
