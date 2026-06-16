@@ -177,3 +177,33 @@ position: fixed;
     display: none;
 }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: inherit ;
+    /* display: none; */
+}
+.navMobile{
+    display: none;
+}
+.burger-menu {
+    display: none;
+}
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "SN Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    position: relative;
+    
+}
+}
