@@ -31,11 +31,12 @@ export default function PageLvl2(){
                 {children.map(child => (
                     <Link
                         key={child.slug}
-                        to={`/ProfCatalog/${category.slug}/${child.slug}`}>
+                        to={`/ProfCatalog/${category.slug}/${child.slug}`}
+                        className="ProfLink">
                             <div className="links">
-                                {child.title}
+                                <p>{child.title}</p>
                             </div>
-                        </Link>
+                    </Link>
                 ))}
             </div>
             <Footer/>

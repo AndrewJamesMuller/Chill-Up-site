@@ -1,5 +1,5 @@
 .mainLvl2{
-    height: 1200px;
+    height: 1800px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -10,6 +10,10 @@
 .title{
     color: #1D5A54;
     font-size: 64px;
+    margin-top: 50px;
+    padding: 10px;
+    border: 5px solid #1D5A54;
+    border-radius: 50px;
 }
 .contentBlock{
     width: 100%;
@@ -28,5 +32,38 @@
     width: 60%;
 }
 .text{
-    font-size: 30px
+    font-size: 30px;
+    text-decoration: none;
+}
+.title2{
+    font-size: 54px;
+    color: #1D5A54;
+}
+.professionsList{
+    display: flex;
+    width: 100%;
+    min-height: 800px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.professionsList link{
+    text-decoration: none;
+}
+.links{
+    width: 500px;
+    height: 100px;
+    background-color: #1D5A54;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 5px solid #38b4a7;
+}
+.ProfLink{
+    text-decoration: none;
 }
