@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { pages } from "../data";
+import "./pageLvl3.css"
 
 export default function PageLvl3() {
 
@@ -24,10 +25,13 @@ export default function PageLvl3() {
     }
 
     return (
-        <div>
-            <h1>{currentProfession.title}</h1>
-
-            <p>{currentProfession.text}</p>
+        <div className="mainLvl3">
+            <h1 className="title">{currentProfession.title}</h1>
+            <div className="textblock">{currentProfession.text}</div>
+            <div className="listsContainer">
+                
+                <section className="partDark"></section>
+            </div>
         </div>
     );
 }
