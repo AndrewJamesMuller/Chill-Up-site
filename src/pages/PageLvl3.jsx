@@ -1,6 +1,9 @@
 import { useParams } from "react-router-dom";
 import { pages } from "../data";
 import "./pageLvl3.css"
+import PartLightLevel3 from "../components/PartLightLevel3";
+import PartDarkLvl3 from "../components/PartDarkLvl3";
+import Footer from "../components/Footer";
 
 export default function PageLvl3() {
 
@@ -27,11 +30,16 @@ export default function PageLvl3() {
     return (
         <div className="mainLvl3">
             <h1 className="title">{currentProfession.title}</h1>
-            <div className="textblock">{currentProfession.text}</div>
-            <div className="listsContainer">
-                
-                <section className="partDark"></section>
+            <div className="textblock">
+                <p className="text">{currentProfession.text}</p>
             </div>
+            <div className="listsContainer">
+                <PartLightLevel3 title={currentProfession.titleAboutLearn} array={currentProfession.listOfLearning}/>
+                <PartDarkLvl3 title={currentProfession.titleAboutSkills} array={currentProfession.listOfSkills}/>
+                <PartLightLevel3 title={currentProfession.titleOfProfessions} array={currentProfession.listOfPossibleWork}/>
+                <PartDarkLvl3 title={currentProfession.titleOfPreferences} array={currentProfession.listOfPreferences}/>
+            </div>
+            <Footer/>
         </div>
     );
 }
