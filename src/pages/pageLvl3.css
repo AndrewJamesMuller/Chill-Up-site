@@ -90,3 +90,157 @@
 .listDark{
     color: #ffffff;
 }
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+    *{
+        margin: 0;
+    }
+    .mainLvl3{
+        width: 100%;
+        height: 3800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #BFBFBF;
+    }
+    .title{
+        color: #1D5A54;
+        border: 5px solid #1D5A54;
+        border-radius: 50px;
+        background-color: #E5E5E5;
+        font-size: 32px;
+    }
+    .textblock{
+        width: 100%;
+        background-color: #1D5A54;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text{
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    .listsContainer{
+        height: 2800px;
+        width: 100%;
+    }
+    .titleBlockLight {
+    border: 5px solid #E5E5E5;
+    background-color: #1D5A54;
+    width: 100%;
+    border-radius: 0;
+}
+.partDark {
+    background-color: #1D5A54;
+    border: 3px solid #E5E5E5;
+    width: 100%;
+    border-radius: 0;
+}
+.titleBlockDark {
+    background-color: #E5E5E5;
+    border: #1D5A54;
+     width: 100%;
+     border-radius: 0;
+}
+.titleLight {
+    font-size: 28px;
+    color: #ffffff;
+}
+.elementLight{
+    font-size: 22px;
+}
+.partLight {
+    background-color: #E5E5E5;
+    border: 3px solid #1D5A54;
+    width: 100%;
+    border-radius: 0;
+}
+.titleDark {
+    font-size: 32px;
+    color: #1D5A54;
+}
+.elementDark{
+    font-size: 22px;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    *{
+        margin: 0;
+    }
+    .mainLvl3{
+        width: 100%;
+        height: 3800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #BFBFBF;
+    }
+    .title{
+        color: #1D5A54;
+        border: 5px solid #1D5A54;
+        border-radius: 50px;
+        background-color: #E5E5E5;
+        font-size: 40px;
+    }
+    .textblock{
+        width: 100%;
+        background-color: #1D5A54;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text{
+        font-size: 28px;
+        margin-left: 50px;
+    }
+    .listsContainer{
+        height: 2800px;
+        width: 100%;
+    }
+    .titleBlockLight {
+    border: 5px solid #E5E5E5;
+    background-color: #1D5A54;
+    width: 100%;
+    border-radius: 0;
+}
+.partDark {
+    background-color: #1D5A54;
+    border: 3px solid #E5E5E5;
+    width: 100%;
+    border-radius: 0;
+}
+.titleBlockDark {
+    background-color: #E5E5E5;
+    border: #1D5A54;
+     width: 100%;
+     border-radius: 0;
+}
+.titleLight {
+    font-size: 34px;
+    color: #ffffff;
+}
+.elementLight{
+    font-size: 28px;
+}
+.partLight {
+    background-color: #E5E5E5;
+    border: 3px solid #1D5A54;
+    width: 100%;
+    border-radius: 0;
+}
+.titleDark {
+    font-size: 34px;
+    color: #1D5A54;
+}
+.elementDark{
+    font-size: 28px;
+}
+}

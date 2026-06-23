@@ -24,20 +24,20 @@ export default function Home() {
                 <section className="steps">
                     <div className="steps_left-block">
                         <div className="circle">
-                            <p className="text1">Кар’єра — це шлях, <br/> i він змінюється у більшості людей</p>
+                            <p className="text3">Кар’єра — це шлях, <br/> i він змінюється у більшості людей</p>
                         </div>
                         <div className="letter_block">
                             <p className="text1">
                                 На цьому сайті ти знайдеш різні напрямки і їх спеціальності. Не спіши! Chill up)
                             </p>
                             <h3 className="letter_block_title">P.S.</h3>
-                            <p className="text1">
+                            <p className="text2">
                                 Наш розробник зустрівся з такою проблемою, пошуку спеціальності. Тому й зараз цей сайт існує!
                             </p>
                         </div>
                     </div>
                     <div className="steps_right-block">
-                        <div className="steps_title"><h2>підказки:</h2></div>
+                        <div className="steps_title"><h2 className="steps_title_text">підказки:</h2></div>
                         {steps.map((step, index) => (
                             <div className="step" key={index}>
                                 <h2 className="step_number">{index + 1}</h2>
