@@ -3,7 +3,7 @@ import "./aboutUs.css"
 export default function AboutUs(){
 return(
     <div className="aboutUsContainer">
-        <h1 className="main_title">Про нас</h1>
+        <h1 className="main_title1">Про нас</h1>
         <div className="contentblock1">
             <p className="text1">
                 Привіт, ми ClillUp - поки що сайт, який допоможе вам з ознайомленням з професіями. В майбутньому, можливо, ми станемо компанією, в якої буде багато подібних сайтів. Цей сайт виконаний як проектна робота на React.js. Розробники: Дрибуленда Андрій, і Гнип Євген. 
