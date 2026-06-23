@@ -142,10 +142,6 @@ position: fixed;
     position: relative;
     
 }
-.nav-link:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
 .nav-link::after {
   content: '';
   position: absolute;
@@ -172,38 +168,3 @@ position: fixed;
 .nav-link:hover::before {
   transform-origin: left;
   transform: scaleX(1);
-} */
-.nav{
-    display: none;
-}
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .nav{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    height: inherit ;
-    /* display: none; */
-}
-.navMobile{
-    display: none;
-}
-.burger-menu {
-    display: none;
-}
-
-.nav-link{
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    font-family: "SN Pro", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    position: relative;
-    
-}
-}
