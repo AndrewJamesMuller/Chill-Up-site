@@ -5,6 +5,7 @@ import ProfCatalog from './pages/ProfCatalog'
 import PageLvl2 from './pages/PageLvl2'
 import PageLvl3 from "./pages/PageLvl3"
 import AboutUs from "./pages/AboutUs"
+import Helper from "./pages/Helper"
 import "./App.css"
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="ProfCatalog" element={<ProfCatalog />} />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/Helper" element={<Helper />} />
         <Route path="ProfCatalog/:slug" element={<PageLvl2 />}/>
         <Route path="ProfCatalog/:category/:profession" element={<PageLvl3/>} />
       </Route>
