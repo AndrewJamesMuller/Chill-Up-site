@@ -63,16 +63,16 @@
     transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease, border-color 0.25s ease;
 }
 .catalog-block-left:hover {
-     border-color: #00d269;
+     border-color: #009693;
     transform: translateY(-4zpx);
-    box-shadow: 0 0 30px rgba(55, 255, 0, 0.4), 
+    box-shadow: 0 0 30px rgba(1, 151, 175, 0.4), 
                 0 0 55px rgba(0, 255, 85, 0.15), 
                 inset 0 0 15px rgba(0, 255, 174, 0.08);
 }
 .catalog-block-right:hover {
-     border-color: #00d269;
+     border-color: #009693;
     transform: translateY(-4zpx);
-    box-shadow: 0 0 30px rgba(55, 255, 0, 0.4), 
+    box-shadow: 0 0 30px rgba(1, 151, 175, 0.4), 
                 0 0 55px rgba(0, 255, 85, 0.15), 
                 inset 0 0 15px rgba(0, 255, 174, 0.08);
 }

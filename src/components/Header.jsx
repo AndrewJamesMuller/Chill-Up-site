@@ -27,9 +27,9 @@ export default function Header() {
             )}
 
             <nav className={`navMobile ${isOpen? "open" : ""}`}>
-                <Link to="/ProfCatalog" className="nav-link">- Професії</Link>
-                <Link to="/Helper" className="nav-link">- Поради для вступу</Link>
-                <Link to="/about" className="nav-link">- Про нас</Link>
+                <Link to="/ProfCatalog" className="nav-link2">- Професії</Link>
+                <Link to="/Helper" className="nav-link2">- Поради для вступу</Link>
+                <Link to="/about" className="nav-link2">- Про нас</Link>
             </nav>
         </header>
     )

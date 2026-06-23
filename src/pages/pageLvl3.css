@@ -121,8 +121,8 @@
         justify-content: center;
     }
     .text{
-        font-size: 20px;
-        margin-left: 50px;
+        font-size: 15px;
+        margin-left: 25px;
     }
     .listsContainer{
         height: 2800px;
@@ -166,6 +166,18 @@
 .elementDark{
     font-size: 22px;
 }
+.ProfTitle{
+    text-align: center;
+}
+    .contentBlock {
+        width: 100%;
+        height: 525px;
+        background-color: #1D5A54;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -198,7 +210,7 @@
         justify-content: center;
     }
     .text{
-        font-size: 28px;
+        font-size: 18px;
         margin-left: 50px;
     }
     .listsContainer{
