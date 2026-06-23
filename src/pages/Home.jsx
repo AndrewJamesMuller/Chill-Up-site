@@ -44,7 +44,7 @@ export default function Home() {
                                 <div className="text-block-steps">
                                     {step.link && (
                                         <Link className="step-link" to={step.link}>
-                                            <p>{step.text}</p>
+                                            <p className='steps-text'>{step.text}</p>
                                         </Link>
                                     )}
                                     {!step.link && <p>{step.text}</p>}

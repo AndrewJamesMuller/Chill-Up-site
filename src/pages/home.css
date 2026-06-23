@@ -54,6 +54,12 @@ h1, h2,h3, p, Link, .step-link{
     /* width: 100%; */
     text-align: left;
 }
+.text3{
+    font-size: 25px;
+}
+.steps-text{
+    font-size: 25px;
+}
 /* стрілка */
 .arrow-down {
     margin: 30px;
@@ -136,7 +142,7 @@ h1, h2,h3, p, Link, .step-link{
     border-radius: 0 50px 50px 0;
     background-color: #1D5A54;
     color: white;
-    width: 500px;
+    width: 550px;
     height: 400px;
     padding-left: 20px;
 }
@@ -151,6 +157,9 @@ h1, h2,h3, p, Link, .step-link{
     align-items: center;
     justify-content: center;
 }
+.text3{
+    font-size: 16px;
+}
 .step{
     display: flex;
     flex-direction: row;
@@ -159,8 +168,8 @@ h1, h2,h3, p, Link, .step-link{
     width: 30%;
     border-radius: 50px 0 0 50px;
     background-color: #1D5A54;
-    height: 80px;
-    width: 400px;
+    height: 100px;
+    width: 500px;
     padding: 20px;
     color: white;
     font-size: 25px;
@@ -171,8 +180,11 @@ h1, h2,h3, p, Link, .step-link{
     margin-left: 20px;
 }
 .text1{
+    font-size: 26px;
+}
+.text2{
     font-size: 24px;
-
+    font-style: italic;
 }
 .letter_block h3{
     font-size: 35px;
@@ -188,12 +200,19 @@ h1, h2,h3, p, Link, .step-link{
 .arrow-down {
     display: none;
 }
-    .intro_text {
-        font-size: 16px;
-        color: #1D5A54;
-        /* width: 100%; */
-        text-align: center;
-    }
+.intro_text {
+    font-size: 16px;
+    color: #1D5A54;
+    /* width: 100%; */
+    text-align: center;
+}
+.content-block1{
+    width: 90%;
+    margin-top: 10px;
+}
+.step-link{
+    font-size: 16px;
+}
 .steps {
     display: flex;
     flex-direction: column;
@@ -202,6 +221,9 @@ h1, h2,h3, p, Link, .step-link{
     width: 100%;
     /* border: 1px solid black; */
     height: 900px;
+}
+.steps-text{
+    font-size: 18px;
 }
 .letter_block {
             display: flex;
@@ -296,8 +318,13 @@ h1, h2,h3, p, Link, .step-link{
     align-items: center;
     justify-content: center;
 }
-.text2{
+ .text1{
     font-style: normal;
+    font-size: 18px;
+}
+.text2{
+    font-size: 17px;
+    font-style: italic;
 }
 .steps_title_text{
     color: #1D5A54;
