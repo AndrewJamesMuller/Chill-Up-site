@@ -42,7 +42,7 @@
 }
 .professionsList{
     display: flex;
-    width: 100%;
+    width: 80%;
     min-height: 800px;
     flex-direction: row;
     align-items: center;
@@ -68,3 +68,120 @@
 .ProfLink{
     text-decoration: none;
 }
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+    .mainLvl2{
+    height: 2000px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+}
+.contentBlock{
+    width: 100%;
+    height: 500px;
+    background-color: #1D5A54;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text {
+    font-size: 15px;
+    text-decoration: none;
+}
+.imageLv2 {
+    height: 150px;
+    /* min-width: 250px; */
+}
+.links {
+    width: 350px;
+    height: 100px;
+    background-color: #1D5A54;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 5px solid #38b4a7;
+}
+.professionsList {
+    display: flex;
+    width: 100%;
+    min-height: 800px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.title {
+    color: #1D5A54;
+    font-size: 35px;
+    margin-top: 50px;
+    padding: 10px;
+    border: 5px solid #1D5A54;
+    border-radius: 50px;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .mainLvl2{
+    height: 2000px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+}
+.contentBlock{
+    width: 100%;
+    height: 500px;
+    background-color: #1D5A54;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text {
+    font-size: 20px;
+    text-decoration: none;
+}
+.imageLv2 {
+    height: 250px;
+    /* min-width: 250px; */
+}
+.links {
+    width: 350px;
+    height: 100px;
+    background-color: #1D5A54;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 5px solid #38b4a7;
+}
+.professionsList {
+    display: flex;
+    width: 100%;
+    min-height: 800px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.title {
+    color: #1D5A54;
+    font-size: 45px;
+    margin-top: 50px;
+    padding: 10px;
+    border: 5px solid #1D5A54;
+    border-radius: 50px;
+}
+}
+
