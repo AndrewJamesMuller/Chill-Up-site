@@ -81,7 +81,7 @@
 }
 .contentBlock{
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-color: #1D5A54;
     display: flex;
     flex-direction: column;

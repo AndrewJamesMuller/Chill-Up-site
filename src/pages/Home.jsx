@@ -27,7 +27,7 @@ export default function Home() {
                             <p className="text3">Кар’єра — це шлях, <br/> i він змінюється у більшості людей</p>
                         </div>
                         <div className="letter_block">
-                            <p className="text1">
+                            <p className="text1-5">
                                 На цьому сайті ти знайдеш різні напрямки і їх спеціальності. Не спіши! Chill up)
                             </p>
                             <h3 className="letter_block_title">P.S.</h3>
