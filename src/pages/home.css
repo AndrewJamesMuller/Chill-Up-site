@@ -22,7 +22,7 @@ h1, h2,h3, p, Link, .step-link{
 
 .intro-image{
     min-height: 800px;
-    background-image: url('./background1.svg');
+    background-image: url(`${import.meta.env.BASE_URL}background1.svg`);
     background-size: cover;
     background-position: center;
     width: 100%;
