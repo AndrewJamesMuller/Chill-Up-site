@@ -91,7 +91,7 @@
     color: #ffffff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 250px) and (max-width: 768px) {
     *{
         margin: 0;
     }
@@ -121,7 +121,7 @@
         justify-content: center;
     }
     .text{
-        font-size: 15px;
+        font-size: 11px;
         margin-left: 25px;
     }
     .listsContainer{
@@ -147,11 +147,11 @@
      border-radius: 0;
 }
 .titleLight {
-    font-size: 28px;
+    font-size: 20px;
     color: #ffffff;
 }
 .elementLight{
-    font-size: 22px;
+    font-size: 18px;
 }
 .partLight {
     background-color: #E5E5E5;
@@ -160,11 +160,11 @@
     border-radius: 0;
 }
 .titleDark {
-    font-size: 32px;
+    font-size: 20px;
     color: #1D5A54;
 }
 .elementDark{
-    font-size: 22px;
+    font-size: 18px;
 }
 .ProfTitle{
     text-align: center;
@@ -178,6 +178,10 @@
         align-items: center;
         justify-content: space-evenly;
     }
+    .title2 {
+    font-size: 35px;
+    color: #1D5A54;
+}
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
