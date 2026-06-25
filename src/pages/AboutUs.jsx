@@ -8,17 +8,17 @@ return(
             <p className="text1">
                 Привіт, ми ClillUp - поки що сайт, який допоможе вам з ознайомленням з професіями. В майбутньому, можливо, ми станемо компанією, в якої буде багато подібних сайтів. Цей сайт виконаний як проектна робота на React.js. Розробники: Дрибуленда Андрій, і Гнип Євген. 
             </p>
-            <img className="logoL" src="/public/logo.svg" alt="" />
+            <img className="logoL" src={`${import.meta.env.BASE_URL}logo.svg`} alt="" />
         </div>
         <div className="programmers">
             <div className="programmer">
-                <img className="imageProgs" src="/public/mmm.png" alt="" />
+                <img className="imageProgs" src={`${import.meta.env.BASE_URL}mmm.png`} alt="" />
                 <p className="textAbout">
                     Дрибуленда Андрій - автор ідеї, дизайну, розробник структури React.js, верстки на компютерній версії, керівник проекту.
                 </p>
             </div>
             <div className="programmer">
-                <img className="imageProgs" src="/public/port.jpg" alt="" />
+                <img className="imageProgs" src={`${import.meta.env.BASE_URL}port.jpg`} alt="" />
                 <p className="textAbout">
                     Гнип Євген - Дизайнер мобільної версії сайту, експерт в сфері styles.css, креативна особа, що додала багато цікавих візуальних ефектів на сайт.
                 </p>
@@ -27,7 +27,7 @@ return(
         <div class="surprise-container">
             {/* Подарунок */}
             <div class="gift-icon">
-                <img src="/public/gift.svg" alt="" className="gift" />
+                <img src={`${import.meta.env.BASE_URL}gift.svg`} alt="" className="gift" />
                 <span class="gift-text">Наведи на мене</span>
             </div>
         

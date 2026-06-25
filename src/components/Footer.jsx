@@ -3,7 +3,7 @@ import "./footer.css"
 export default function Footer() {
     return (
         <footer className="footer">
-            <Link to="/Home"> <img src="/logo.svg" alt="logo" className="logo2" /> </Link>
+            <Link to="/Home"> <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="logo" className="logo2" /> </Link>
             <div className="footer-block1">
                 <p className="footer_text">Івано-Франківськ 2026</p>
                 <div className="phone">
