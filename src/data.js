@@ -30,8 +30,8 @@ export const pages = [
     {
         slug: "law",
         title: "Право",
-        img: "/public/law.svg",
-        imageMain: "/public/tematic-law.png",
+        img: `${import.meta.env.BASE_URL}law.svg`,
+        imageMain: `${import.meta.env.BASE_URL}tematic-law.png`,
         mainText: "Право — це сфера, пов'язана із захистом прав громадян, забезпеченням справедливості та дотриманням законів. Фахівці цієї галузі працюють із юридичними документами, консультують клієнтів і представляють їхні інтереси. Для успішної роботи необхідні уважність, відповідальність та аналітичне мислення. Правнича освіта відкриває можливості для роботи в державному та приватному секторах.",
         children: [
             "lawyer", 
@@ -354,8 +354,8 @@ export const pages = [
     {
         slug: "construction",
         title: "Будівництво",
-        img: "/public/builder1.svg",
-        imageMain: "/public/building.jpg",
+        img: `${import.meta.env.BASE_URL}builder1.svg`,
+        imageMain: `${import.meta.env.BASE_URL}building.jpg`,
         mainText: "Будівництво охоплює проєктування, спорудження та обслуговування будівель і різних інженерних об'єктів. Спеціалісти цієї галузі беруть участь у створенні житлових будинків, доріг, мостів та інших споруд. Робота вимагає технічних знань, точності та вміння працювати в команді. Будівельна сфера залишається важливою для розвитку будь-якої країни.",
         children: [
             "building-engineer",
@@ -679,8 +679,8 @@ export const pages = [
     {
         slug: "sports",
         title: "Спорт",
-        img: "/public/sports1.svg",
-        imageMain: "/public/tematic-sport.png",
+        img: `${import.meta.env.BASE_URL}sports1.svg`,
+        imageMain: `${import.meta.env.BASE_URL}tematic-sport.png`,
         mainText: "Спортивна галузь об'єднує професії, пов'язані з фізичною підготовкою, тренуванням та розвитком здорового способу життя. Фахівці працюють зі спортсменами різного рівня та допомагають їм досягати високих результатів. У цій сфері важливими є дисципліна, витривалість і комунікаційні навички. Спорт також відкриває можливості для роботи у сфері освіти та реабілітації.",
         children: [
             "coach",
@@ -1005,8 +1005,8 @@ export const pages = [
     {
         slug: "marketing",
         title: "Маркетинг",
-        img: "/public/marketing.svg",
-        imageMain: "/public/tematic-marketing.png",
+        img: `${import.meta.env.BASE_URL}marketing.svg`,
+        imageMain: `${import.meta.env.BASE_URL}tematic-marketing.png`,
         mainText: "Маркетинг займається просуванням товарів, послуг і брендів на ринку. Спеціалісти аналізують потреби споживачів, створюють рекламні кампанії та досліджують конкурентне середовище. Для роботи необхідні креативність, аналітичне мислення та вміння працювати з інформацією. Маркетинг є важливою складовою розвитку сучасного бізнесу.",
         children: [
             "digital-marketing",
@@ -1332,8 +1332,8 @@ export const pages = [
     {
         slug: "engineering",
         title: "Інженерія",
-        img: "/public/engineering.svg",
-        imageMain: "/public/tematic-engeneering.png",
+        img: `${import.meta.env.BASE_URL}engineering.svg`,
+        imageMain: `${import.meta.env.BASE_URL}tematic-engeneering.png`,
         mainText: "Інженерія поєднує науку, техніку та практичні рішення для створення нових технологій і систем. Інженери проєктують механізми, обладнання, будівлі та інші технічні об'єкти. Професія вимагає глибоких знань математики, фізики та технічного мислення. Інженерні спеціальності залишаються затребуваними в багатьох галузях економіки.",
         children: [
             "civil-engineer",
@@ -1658,8 +1658,8 @@ export const pages = [
     {
     slug: "it",
     title: "IT-фахівці",
-    img: "/public/it.svg",
-    imageMain: "/public/tematic-it.png",
+    img: `${import.meta.env.BASE_URL}it.svg`,
+    imageMain: `${import.meta.env.BASE_URL}tematic-it.png`,
     mainText:
       "IT-сфера охоплює розробку програмного забезпечення, комп'ютерних систем та цифрових сервісів. Фахівці створюють сайти, мобільні застосунки, бази даних та інші технологічні продукти. У цій галузі важливими є логічне мислення, уважність до деталей та готовність постійно навчатися. IT пропонує широкий вибір напрямків і перспектив для професійного розвитку.",
     children: [
@@ -1984,8 +1984,8 @@ export const pages = [
   {
     slug: "teaching",
     title: "Викладачі",
-    img: "/public/teacher.svg",
-    imageMain: "/public/tematic-teaching.png",
+    img: `${import.meta.env.BASE_URL}teacher.svg`,
+    imageMain: `${import.meta.env.BASE_URL}tematic-teaching.png`,
     mainText:
       "Викладання — це діяльність, спрямована на передачу знань, навичок та досвіду іншим людям. Педагоги працюють у школах, коледжах, університетах та освітніх центрах. Для цієї професії важливими є терпіння, відповідальність та вміння знаходити підхід до учнів. Робота викладача відіграє важливу роль у розвитку суспільства.",
     children: [
@@ -2208,8 +2208,8 @@ export const pages = [
   {
     slug: "design",
     title: "Дизайн",
-    img: "/public/design.svg",
-    imageMain: "/public/tematic-design.png",
+    img: `${import.meta.env.BASE_URL}design.svg`,
+    imageMain: `${import.meta.env.BASE_URL}tematic-design.png`,
     mainText:
       "Дизайн поєднує творчість і практичні рішення для створення зручних та привабливих продуктів. Дизайнери працюють із графікою, інтерфейсами, рекламою, одягом та багатьма іншими напрямками. Для успіху в цій сфері необхідні креативність, почуття стилю та увага до деталей. Дизайнери допомагають зробити інформацію та продукти зрозумілими й естетичними.",
     children: [
@@ -2531,8 +2531,8 @@ export const pages = [
   {
     slug: "office",
     title: "Офісна справа",
-    img: "/public/office.svg",
-    imageMain: "/public/tematic-office.png",
+    img: `${import.meta.env.BASE_URL}office.svg`,
+    imageMain: `${import.meta.env.BASE_URL}tematic-office.png`,
     mainText:
       "Офісна справа охоплює професії, пов'язані з організацією роботи підприємств та установ. Фахівці займаються документообігом, комунікацією, плануванням і координацією процесів. Для роботи важливі відповідальність, організованість та навички спілкування. Ця сфера є необхідною для ефективної діяльності будь-якої організації.",
     children: [
@@ -2860,8 +2860,8 @@ export const pages = [
   {
     slug: "medicine",
     title: "Медицина",
-    img: "/public/doctor.svg",
-    imageMain: "/public/tematic-doctor.png",
+    img: `${import.meta.env.BASE_URL}doctor.svg`,
+    imageMain: `${import.meta.env.BASE_URL}tematic-doctor.png`,
     mainText:
       "Медична галузь об'єднує професії, пов'язані з діагностикою, лікуванням та профілактикою захворювань. Лікарі допомагають людям підтримувати здоров'я та покращувати якість життя. Для цієї роботи потрібні ґрунтовні знання, відповідальність і готовність постійно вдосконалюватися. Медичні професії є одними з найважливіших і найшанованіших у суспільстві.",
     children: [
