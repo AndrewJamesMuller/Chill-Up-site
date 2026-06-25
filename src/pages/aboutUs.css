@@ -158,7 +158,7 @@
             transform: scale(1);
         }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 250px) and (max-width: 768px) {
     *{
         margin: 0;
         padding: 0;
@@ -172,7 +172,7 @@
     }
     .main_title1{
         font-size: 35px;
-        width: 300px;
+        width: 250px;
                 color: #1D5A54;
     }
     .contentblock1{
@@ -188,8 +188,8 @@
         height: 600px;
     }
     .imageProgs{
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
     }
     .textAbout{
         font-size: 20px;
@@ -199,10 +199,10 @@
     .text1{
         font-size: 17px;
     width: 83%;
-    margin-left: 50px;
+    margin-left: 25px;
     }
     .logoL {
-    height: 100px;
+    height: 65px;
 }
 .thank-you-box {
     position: absolute;
@@ -233,6 +233,15 @@
     font-size: 25px;
     color: #1D5A54;
     margin-bottom: 20px;
+}
+.surprise-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 400px;
+    cursor: pointer;
 }
 }
 
