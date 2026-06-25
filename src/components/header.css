@@ -134,7 +134,7 @@ position: fixed;
   position: fixed;
     top: 100px;
     right: 0;
-    width: 280px;
+    width: 250px;
     height: calc(100vh - 100px);
     background: #055C5A;
     transform: translateX(100%);

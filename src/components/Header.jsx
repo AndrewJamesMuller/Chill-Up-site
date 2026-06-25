@@ -7,7 +7,7 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false)
     return (
         <header className="header">
-            <Link to="/"> <img src="/logo.svg" alt="logo" className="logo" /> </Link>
+            <Link to="/"> <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="logo" className="logo" /> </Link>
             <nav className="nav">
                 <Link to="/ProfCatalog" className="nav-link">Професії</Link>
                 <Link to="/Helper" className="nav-link">Поради для вступу</Link>
