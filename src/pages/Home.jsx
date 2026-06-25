@@ -8,7 +8,7 @@ export default function Home() {
         <div className="home_container">
             {/* <Header /> */}
             <div className="home">
-                <section className="intro-image">
+                <section className="intro-image" style={{backgroundImage: `url(${import.meta.env.BASE_URL}background1.svg)`}}>
                     <h1 className="main_title">Привіт!</h1>
                     <div className="content-block1">
                         <div className="textBlock">
