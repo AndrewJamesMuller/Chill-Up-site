@@ -34,7 +34,7 @@ export default function PageLvl2(){
                         to={`/ProfCatalog/${category.slug}/${child.slug}`}
                         className="ProfLink">
                             <div className="links">
-                                <p>{child.title}</p>
+                                <p className="ProfTitle">{child.title}</p>
                             </div>
                     </Link>
                 ))}

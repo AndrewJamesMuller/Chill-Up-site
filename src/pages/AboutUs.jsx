@@ -18,7 +18,7 @@ return(
                 </p>
             </div>
             <div className="programmer">
-                <img className="imageProgs" src="/public/llaalla.png" alt="" />
+                <img className="imageProgs" src="/public/port.jpg" alt="" />
                 <p className="textAbout">
                     Гнип Євген - Дизайнер мобільної версії сайту, експерт в сфері styles.css, креативна особа, що додала багато цікавих візуальних ефектів на сайт.
                 </p>
