@@ -13,9 +13,11 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
+
         <Route path="ProfCatalog" element={<ProfCatalog />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/Helper" element={<Helper />} />
+        <Route path="about" element={<AboutUs />} />
+        <Route path="Helper" element={<Helper />} />
+        
         <Route path="ProfCatalog/:slug" element={<PageLvl2 />}/>
         <Route path="ProfCatalog/:category/:profession" element={<PageLvl3/>} />
       </Route>
