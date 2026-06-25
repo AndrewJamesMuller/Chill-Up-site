@@ -110,7 +110,7 @@
     margin-top: 50px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 250px) and (max-width: 768px) {
     *{
         margin: 0;
         padding: 0;
@@ -160,7 +160,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: #055C5A;
-    width: 320px;
+    width: 250px;
     height: 100px;
     color: white;
     padding: 20px;
@@ -172,14 +172,14 @@
     align-items: center;
     justify-content: space-between;
     background-color: #055C5A;
-    width: 320px;
+    width: 250px;
     height: 100px;
     color: white;
     padding: 20px;
     border-radius: 100px;
 }
 .prof-catalog-title {
-    font-size: 30px;
+    font-size: 24px;
     color: #055C5A;
     margin-top: 50px;
 }
