@@ -67,7 +67,7 @@
   transform-origin: left;
   transform: scaleX(1);
 }
-@media screen and (min-width: 400px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .header{
     padding: 15px;
     background-color: #055C5A;

@@ -189,7 +189,7 @@ h1, h2,h3, p, Link, .step-link{
 
 @media screen and (min-width: 400px) and (max-width: 768px) {
     .main_title{
-    font-size: 45px;
+    font-size: 45px; 
     color: #1D5A54;
     /* width: 100%; */
     /* text-align: center; */
