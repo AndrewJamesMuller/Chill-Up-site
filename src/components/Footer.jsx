@@ -10,7 +10,7 @@ export default function Footer() {
                     <img src={`${import.meta.env.BASE_URL}phone.svg`} alt="" className="phone_icon" />
                     <p className="phone_number">+380671234567</p>
                 </div>
-            </div>щас 
+            </div>
             <div className="footer-block2">
                 <Link className="footer-link" to="/ProfCatalog">Професії</Link>
                 <Link className="footer-link" to="/Helper">Поради для вступу</Link>
