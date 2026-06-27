@@ -68,8 +68,7 @@
 }
 @media screen and (min-width: 250px) and (max-width: 768px) {
     .footer{
-        width: 90%;
-        left: 5%;
+        width: 100%;
     }
     .footer-block1 {
     display: flex;
