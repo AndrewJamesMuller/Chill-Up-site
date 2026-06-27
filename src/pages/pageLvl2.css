@@ -65,6 +65,29 @@
     border-radius: 50px;
     border: 5px solid #38b4a7;
 }
+.links::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            /* Змінив колір на більш контрастний */
+            background-color: #08B2AD; 
+            transform: scaleX(0);
+            transform-origin: left; /* Заповнення зліва направо */
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: -1;
+        }
+
+        /* Активація анімації при наведенні */
+        .links:hover::before {
+            transform: scaleX(1);
+        }
+
+        .links:hover {
+            color: #ffffff; /* Залиште колір тексту білим або змініть за потреби */
+        }
 .ProfLink{
     text-decoration: none;
 }
@@ -108,6 +131,29 @@
     border-radius: 50px;
     border: 5px solid #38b4a7;
 }
+.links::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            /* Змінив колір на більш контрастний */
+            background-color: #08B2AD; 
+            transform: scaleX(0);
+            transform-origin: left; /* Заповнення зліва направо */
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: -1;
+        }
+
+        /* Активація анімації при наведенні */
+        .links:hover::before {
+            transform: scaleX(1);
+        }
+
+        .links:hover {
+            color: #ffffff; /* Залиште колір тексту білим або змініть за потреби */
+        }
 .professionsList {
     display: flex;
     width: 100%;
