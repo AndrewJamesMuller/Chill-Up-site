@@ -21,7 +21,7 @@ export default function PageLvl2(){
             <div className="contentBlock">
                 <img src={category.imageMain} alt={category.title} className="imageLv2" />
                 <div className="textBlock">
-                    <p className="text">{category.mainText}</p>
+                    <p className="textLvl2">{category.mainText}</p>
                 </div>
             </div>
             <h2 className="title2">
